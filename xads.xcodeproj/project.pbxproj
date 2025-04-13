@@ -453,7 +453,7 @@
 				DEVELOPMENT_TEAM = NTP2A7PJM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xads/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = xads;
+				INFOPLIST_KEY_CFBundleDisplayName = Cigarette;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -489,7 +489,7 @@
 				DEVELOPMENT_TEAM = NTP2A7PJM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xads/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = xads;
+				INFOPLIST_KEY_CFBundleDisplayName = Cigarette;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
