@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB176342DAB304B00366FA5 /* xads Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4EB176332DAB304B00366FA5 /* xads Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB1761E2DAB304B00366FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB175F82DAB304900366FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB175FF2DAB304900366FA5;
+			remoteInfo = xads;
+		};
+		4EB176282DAB304B00366FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB175F82DAB304900366FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB175FF2DAB304900366FA5;
+			remoteInfo = xads;
+		};
+		4EB176352DAB304B00366FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB175F82DAB304900366FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB176322DAB304B00366FA5;
+			remoteInfo = "xads Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EB176522DAB304B00366FA5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4EB176342DAB304B00366FA5 /* xads Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4EB176002DAB304900366FA5 /* xads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB1761D2DAB304B00366FA5 /* xadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB176272DAB304B00366FA5 /* xadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB176332DAB304B00366FA5 /* xads Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xads Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4EB1764D2DAB304B00366FA5 /* Exceptions for "xads" folder in "xads" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4EB175FF2DAB304900366FA5 /* xads */;
+		};
+		4EB176512DAB304B00366FA5 /* Exceptions for "xads Extension" folder in "xads Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4EB176322DAB304B00366FA5 /* xads Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4EB176022DAB304900366FA5 /* xads */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4EB1764D2DAB304B00366FA5 /* Exceptions for "xads" folder in "xads" target */,
+			);
+			path = xads;
+			sourceTree = "<group>";
+		};
+		4EB176202DAB304B00366FA5 /* xadsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xadsTests;
+			sourceTree = "<group>";
+		};
+		4EB1762A2DAB304B00366FA5 /* xadsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xadsUITests;
+			sourceTree = "<group>";
+		};
+		4EB176372DAB304B00366FA5 /* xads Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4EB176512DAB304B00366FA5 /* Exceptions for "xads Extension" folder in "xads Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "xads Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB175FD2DAB304900366FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB1761A2DAB304B00366FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB176242DAB304B00366FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB176302DAB304B00366FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB175F72DAB304900366FA5 = {
+			isa = PBXGroup;
+			children = (
+				4EB176022DAB304900366FA5 /* xads */,
+				4EB176202DAB304B00366FA5 /* xadsTests */,
+				4EB1762A2DAB304B00366FA5 /* xadsUITests */,
+				4EB176372DAB304B00366FA5 /* xads Extension */,
+				4EB176012DAB304900366FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB176012DAB304900366FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB176002DAB304900366FA5 /* xads.app */,
+				4EB1761D2DAB304B00366FA5 /* xadsTests.xctest */,
+				4EB176272DAB304B00366FA5 /* xadsUITests.xctest */,
+				4EB176332DAB304B00366FA5 /* xads Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB175FF2DAB304900366FA5 /* xads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB176532DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xads" */;
+			buildPhases = (
+				4EB175FC2DAB304900366FA5 /* Sources */,
+				4EB175FD2DAB304900366FA5 /* Frameworks */,
+				4EB175FE2DAB304900366FA5 /* Resources */,
+				4EB176522DAB304B00366FA5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB176362DAB304B00366FA5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4EB176022DAB304900366FA5 /* xads */,
+			);
+			name = xads;
+			packageProductDependencies = (
+			);
+			productName = xads;
+			productReference = 4EB176002DAB304900366FA5 /* xads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EB1761C2DAB304B00366FA5 /* xadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB176582DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xadsTests" */;
+			buildPhases = (
+				4EB176192DAB304B00366FA5 /* Sources */,
+				4EB1761A2DAB304B00366FA5 /* Frameworks */,
+				4EB1761B2DAB304B00366FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB1761F2DAB304B00366FA5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4EB176202DAB304B00366FA5 /* xadsTests */,
+			);
+			name = xadsTests;
+			packageProductDependencies = (
+			);
+			productName = xadsTests;
+			productReference = 4EB1761D2DAB304B00366FA5 /* xadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EB176262DAB304B00366FA5 /* xadsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB1765B2DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xadsUITests" */;
+			buildPhases = (
+				4EB176232DAB304B00366FA5 /* Sources */,
+				4EB176242DAB304B00366FA5 /* Frameworks */,
+				4EB176252DAB304B00366FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB176292DAB304B00366FA5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4EB1762A2DAB304B00366FA5 /* xadsUITests */,
+			);
+			name = xadsUITests;
+			packageProductDependencies = (
+			);
+			productName = xadsUITests;
+			productReference = 4EB176272DAB304B00366FA5 /* xadsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4EB176322DAB304B00366FA5 /* xads Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB1764E2DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xads Extension" */;
+			buildPhases = (
+				4EB1762F2DAB304B00366FA5 /* Sources */,
+				4EB176302DAB304B00366FA5 /* Frameworks */,
+				4EB176312DAB304B00366FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4EB176372DAB304B00366FA5 /* xads Extension */,
+			);
+			name = "xads Extension";
+			packageProductDependencies = (
+			);
+			productName = "xads Extension";
+			productReference = 4EB176332DAB304B00366FA5 /* xads Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB175F82DAB304900366FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4EB175FF2DAB304900366FA5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4EB1761C2DAB304B00366FA5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4EB175FF2DAB304900366FA5;
+					};
+					4EB176262DAB304B00366FA5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4EB175FF2DAB304900366FA5;
+					};
+					4EB176322DAB304B00366FA5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 4EB175FB2DAB304900366FA5 /* Build configuration list for PBXProject "xads" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EB175F72DAB304900366FA5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4EB176012DAB304900366FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB175FF2DAB304900366FA5 /* xads */,
+				4EB1761C2DAB304B00366FA5 /* xadsTests */,
+				4EB176262DAB304B00366FA5 /* xadsUITests */,
+				4EB176322DAB304B00366FA5 /* xads Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB175FE2DAB304900366FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB1761B2DAB304B00366FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB176252DAB304B00366FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB176312DAB304B00366FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB175FC2DAB304900366FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB176192DAB304B00366FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB176232DAB304B00366FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB1762F2DAB304B00366FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB1761F2DAB304B00366FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB175FF2DAB304900366FA5 /* xads */;
+			targetProxy = 4EB1761E2DAB304B00366FA5 /* PBXContainerItemProxy */;
+		};
+		4EB176292DAB304B00366FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB175FF2DAB304900366FA5 /* xads */;
+			targetProxy = 4EB176282DAB304B00366FA5 /* PBXContainerItemProxy */;
+		};
+		4EB176362DAB304B00366FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB176322DAB304B00366FA5 /* xads Extension */;
+			targetProxy = 4EB176352DAB304B00366FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EB1764F2DAB304B00366FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xads Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xads Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xads.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB176502DAB304B00366FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xads Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xads Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xads.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EB176542DAB304B00366FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xads/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = xads;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB176552DAB304B00366FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xads/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = xads;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EB176562DAB304B00366FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EB176572DAB304B00366FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EB176592DAB304B00366FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xads.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xads";
+			};
+			name = Debug;
+		};
+		4EB1765A2DAB304B00366FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xads.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xads";
+			};
+			name = Release;
+		};
+		4EB1765C2DAB304B00366FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xads;
+			};
+			name = Debug;
+		};
+		4EB1765D2DAB304B00366FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTP2A7PJM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garytokman.xadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xads;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB175FB2DAB304900366FA5 /* Build configuration list for PBXProject "xads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB176562DAB304B00366FA5 /* Debug */,
+				4EB176572DAB304B00366FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB1764E2DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xads Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB1764F2DAB304B00366FA5 /* Debug */,
+				4EB176502DAB304B00366FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB176532DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB176542DAB304B00366FA5 /* Debug */,
+				4EB176552DAB304B00366FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB176582DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB176592DAB304B00366FA5 /* Debug */,
+				4EB1765A2DAB304B00366FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB1765B2DAB304B00366FA5 /* Build configuration list for PBXNativeTarget "xadsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB1765C2DAB304B00366FA5 /* Debug */,
+				4EB1765D2DAB304B00366FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB175F82DAB304900366FA5 /* Project object */;
+}

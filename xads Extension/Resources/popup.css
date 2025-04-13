@@ -1,0 +1,42 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 100px;
+    padding: 10px;
+
+    font-family: system-ui;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}
+
+.credit-box {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: rgba(240, 240, 240, 0.6);
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.credit-box:hover {
+    background: rgba(220, 220, 220, 0.8);
+}
+
+@media (prefers-color-scheme: dark) {
+    .credit-box {
+        background: rgba(60, 60, 60, 0.6);
+        color: #eee;
+    }
+
+    .credit-box:hover {
+        background: rgba(80, 80, 80, 0.8);
+    }
+}
